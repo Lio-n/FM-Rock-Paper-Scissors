@@ -1,0 +1,17 @@
+{
+  "name": "rock-paper-scissors-master",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "@vaadin/router": "^1.7.4",
+    "gh-pages": "^3.2.3",
+    "parcel": "^2.0.1",
+    "yarn": "^1.22.17"
+  },
+  "scripts": {
+    "dev": "parcel serve ./src/index.html",
+    "build": "parcel build ./src/index.html --dist-dir build",
+    "deploy": "gh-pages -d dist",
+    "build-and-deploy": "yarn build && yarn deploy"
+  }
+}
