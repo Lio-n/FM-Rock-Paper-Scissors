@@ -17,7 +17,7 @@ export class Result extends HTMLElement {
     const resultButton = this.shadow.querySelector(".result__button");
     resultButton.addEventListener("click", (e) => {
       e.preventDefault();
-      Router.go("/");
+      Router.go("/FM-rock-paper-scissors/");
     });
   }
   render() {

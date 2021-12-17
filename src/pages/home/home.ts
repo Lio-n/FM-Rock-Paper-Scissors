@@ -28,7 +28,7 @@ export class Home extends HTMLElement {
         choice.addEventListener("change", (e: any) => {
           const botMove = botMoveRm() as any;
           state.setMove(e.detail.myPlay, botMove);
-          Router.go("/results");
+          Router.go("/FM-rock-paper-scissors/results");
         });
       }
     };
