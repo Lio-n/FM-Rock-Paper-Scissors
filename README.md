@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Github](https://lio-n.github.io/FM-Rock-Paper-Scissors/)
+- Live Site URL: [Github](https://lio-n.github.io/FM-rock-paper-scissors/)
 
 ## My process
 
