@@ -3656,6 +3656,10 @@ var _router = require("@vaadin/router");
     const router = new _router.Router(document.querySelector(".root"));
     router.setRoutes([
         {
+            path: "*",
+            component: "home-page"
+        },
+        {
             path: "/",
             component: "home-page"
         },
